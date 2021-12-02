@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Roboto&family=Zilla+Slab+Highlight:wght@700&family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Roboto&family=Zilla+Slab+Highlight:wght@700&family=Zilla+Slab:wght@300&display=swap');
+
+@media screen and (max-width: 991px) {
+  .name-text {
+      font-size: 16px;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  background-color: #DDC9A4;
+  margin: 0px;
+}
+
+h3 {
+ margin: 0px;
+}
+
+p {
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header header header"
+    "sidenav sidenav content content content content"
+    "sidenav sidenav content content content content"
+    "sidenav sidenav footer footer footer footer";
+}
+
+.intro {
+  margin-top: 150px;
+}
+
+.content {
+  grid-area: content;
+  width: 80%;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin: 0px;
+}
+
+.content a {
+  text-decoration: none;
+  color: black;
+}
+
+#name {
+  font-family: 'Zilla Slab', serif;
+  font-size: 60px;
+  color: #5C5444;
+  margin: 0px;
+}
+
+#name:hover {
+  font-family: 'Zilla Slab Highlight', cursive;;
+  font-weight: bold 700;
+  color: black;
+}
+
+.header {
+  grid-area: header;
+}
+
+#tagline {
+  font-style: small-caps;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.sidenav {
+  grid-area: sidenav;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  position: fixed;
+  bottom: 25px;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-variant: small-caps;
+}
+  
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  font-variant: small-caps;
+  color: #5C5444;
+  display: block;
+}
+  
+.sidenav a:hover {
+  color: black;
+}
+
+.sidenav a.active {
+  text-decoration: underline;
+}
+
+.footer-fixed {
+  grid-area: footer;
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+  right: 25px;
+  bottom: 0px;
+  margin-bottom: auto;
+}
+
+.footer-center {
+  display: flex;
+  grid-row: span;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-right a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-variant: small-caps;
+  color: #5C5444;
+}
+  
+.footer-right a:hover {
+  color: black;
+}
+
+.footer-right a.active {
+  text-decoration: underline;
+}
+
+ul li{
+  display: inline-table;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-text {
+  position: static;
+  width: auto;
+  max-width: 770px;
+  line-height: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.about-skills {
+  position: static;
+  width: auto;
+  max-width: 770px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  text-align: left;
+}
+
+.about-main {
+  position: static;
+  width: auto;
+  max-width: 770px;
+  line-height: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  text-align: left;
+}
+
+.about-main h3 {
+  padding-top: 100px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.project-snack {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#projects-title {
+  position: fixed;
+  margin: auto;
+}
+
+.projects {
+  position: static;
+  width: auto;
+  max-width: 770px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.snack-rectangle {
+  width: 700px;
+  height: 430px;
+  background-color: #5C5444;
+  border-radius: 5px;
+  margin: 25px 25px 25px 25px;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+
+.snack-rectangle:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  color: #5C5444;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.snack-rectangle h2 {
+  margin-left: 25px;
+}
+
+.snack-rectangle a {
+  text-decoration: none;
+  color: black;
+  margin-left: 575px;
+}
+
+.snack-rectangle a:hover{
+  color: #5C5444;
+  text-decoration: underline;
+}
+/*
+
+Code I am STILLLLL toying with that just won't work.....
+
+.side-rectangle {
+  height: 1000px;
+  width: 100px;
+  background-color: #5C5444;
+  border-radius: 5px;
+}
+
+.project-snack {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "side-rectangle" "snack-rectangle" "snack-rectangle" "snack-rectangle"
+    "side-rectangle" "snack-rectangle" "snack-rectangle" "snack-rectangle"
+    "side-rectangle" "snack-rectangle" "snack-rectangle" "snack-rectangle"
+    ;
+}
+*/
