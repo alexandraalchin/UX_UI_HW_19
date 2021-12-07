@@ -34,10 +34,6 @@ p {
     "sidenav sidenav footer footer footer footer";
 }
 
-.intro {
-  margin-top: 150px;
-}
-
 .content {
   grid-area: content;
   width: 80%;
@@ -263,6 +259,13 @@ ul li{
   100% { transform: translate(0px, 0px) rotate(1deg); }
 }
 
+#intro {
+  margin-top: 150px;
+}
+
+.projects-btn {
+  border-radius: ;
+} 
 
 /*
 
@@ -301,4 +304,5 @@ Imag Shake Initial
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
 */
