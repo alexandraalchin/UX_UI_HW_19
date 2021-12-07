@@ -271,9 +271,16 @@ ul li{
   text-align: center;
   font-variant: small-caps;
   color: #5C5444;
+  
+  &.grow {
+    transition: all .2s ease-in-out;
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
 } 
 
-/*personal image css animation*/
+/*personal image css animation - playing around, not fully working*/
 
 :root {
   --primary: #E8C57B;
